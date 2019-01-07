@@ -35,7 +35,7 @@ describe('store', () => {
           <App />
         </Provider>
       );
-      expect(store.getState()).to.deep.equal({users: [{username: "Joey", hometown: "Brooklyn"}]});
+      expect(store.getState()).to.deep.equal({users: [{username: "Joey", hometown: "Brooklyn"}] });
   });
 });
 
